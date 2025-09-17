@@ -14,10 +14,6 @@ public class CheckPrimeNumber {
         }
         return true;
     }
-    void display(){
-        System.out.println("Checking the git pull request");
-    }
-
 
     public void  checkPrime(){
         List<Integer> list = Arrays.asList(1,2,3,45,7,9,11);
