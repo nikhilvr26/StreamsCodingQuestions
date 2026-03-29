@@ -14,6 +14,7 @@ public class CheckPrimeNumber {
         }
         return true;
     }
+
     public void  checkPrime(){
         List<Integer> list = Arrays.asList(1,2,3,45,7,9,11);
         boolean check = list.stream().anyMatch(this::isPrime);
